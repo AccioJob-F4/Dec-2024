@@ -144,7 +144,7 @@ $$
 
 <hr/>
 
-Event Loop : [Article](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) | [Visualization](http://latentflip.com/loupe/)
+Event Loop : [Article](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) | [Visualization](https://www.jsv9000.app/)
 
 Zustand : [Documentation](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
