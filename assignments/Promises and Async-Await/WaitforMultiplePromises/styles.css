@@ -1,0 +1,28 @@
+/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+.loading {
+  font-style: italic;
+  color: gray;
+}
