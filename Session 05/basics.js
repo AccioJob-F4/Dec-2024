@@ -201,3 +201,17 @@
 // };
 
 // fetchData2();
+
+const getData = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Hola");
+    }, 3000);
+  });
+};
+
+const start = Date.now();
+getData().then((msg) => {
+  const end = Date.now();
+  console.log(end - start);
+});
