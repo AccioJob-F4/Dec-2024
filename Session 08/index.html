@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Customizable Data Table</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Customizable Data Table</h1>
+
+    <div class="filter-container">
+      <input type="text" id="search" placeholder="Search by Name or City" />
+      <input type="number" id="minAge" placeholder="Min Age" />
+      <input type="number" id="maxAge" placeholder="Max Age" />
+    </div>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th data-key="name">Name</th>
+          <th data-key="age">Age</th>
+          <th data-key="city">City</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Rows wil be dynamically added here via script.js using some static json object -->
+      </tbody>
+    </table>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

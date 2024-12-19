@@ -1,0 +1,16 @@
+Customizable Data Table with Filters
+=========================================================================================================
+Description: Build a dynamic data table with the ability to sort columns, search, and apply filters.
+
+Features:
+
+ - Dynamically generate rows and columns from JSON data.
+ - Column sorting (ascending/descending).
+ - Text-based search across rows.
+ - Advanced filters (e.g., filter by date range or numeric range).
+
+Key DOM Concepts:
+
+ - Dynamic table creation using createElement.
+ - Updating the DOM on search or filter events.
+ - Handling sorting logic and updating the DOM accordingly.
