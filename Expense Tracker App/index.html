@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+
+    <div class="container">
+      <h1>Expense Tracker</h1>
+
+      <form id="transaction-form">
+        <input type="text" id="title" placeholder="Title" required />
+        <input type="number" id="amount" placeholder="Amount" required />
+        <select id="category" required>
+          <option value="">Category</option>
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Bills">Bills</option>
+          <option value="Others">Others</option>
+        </select>
+        <input type="date" id="date" required />
+        <button type="submit">Add Transaction</button>
+      </form>
+
+      <div class="filters">
+        <select id="filter-category">
+          <option value="">All Categories</option>
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Bills">Bills</option>
+          <option value="Others">Others</option>
+        </select>
+
+        <input type="date" id="filter-date" />
+        <button id="filter-btn">Filter</button>
+      </div>
+
+      <div id="transactions-container"></div>
+
+      <div class="chart-container">
+        <canvas id="expenseChart"></canvas>
+      </div>
+
+      <button id="export-btn">Export to CSV</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
